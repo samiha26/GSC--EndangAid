@@ -7,7 +7,7 @@
 .website{
     height: 100%;
     width: 100%;
-    background: url('background.png') no-repeat ;
+    background: url(images/background.png) no-repeat ;
     
     background-position: center;
     background-size: cover;
@@ -128,7 +128,7 @@ span{
 
 /* NGO html  */
 .container, body{
-    background-image: url(bg.png);
+    background-image: url(images/bg.png);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -136,7 +136,12 @@ span{
     --nav--height: 50px;
     padding-top: var(--nav--height);
 }
-
+.ngo-title, h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: initial;
+    
+}
 
 .card{
     width: 90%;
@@ -209,8 +214,9 @@ span{
 }
 
 .nav--link{
+    text-align: center;
     color: white;
-    text-decoration: none;
+    text-decoration:none;
     margin: 0 1em;
     font-weight: lighter;
 }
